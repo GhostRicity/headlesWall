@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: GhostRicity/headlesWall
+  branch: master
+  use_graphql: true
+
+
+# Uncomment local_backend when you need to develop in your local
+#local_backend: true # run npx netlify-cms-proxy-server for local testing
+
+media_folder: "static/assets"
+public_folder: "/assets"
+
+
+collections:
+  - label: Horo
+    name: hero
+    folder: content/hero
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title, widget: 'string' }
+      - { name: description, label: Description, widget: string }
+      - { name: 'featuredImage', label: 'Featured Image', widget: 'image', required: true,  tagname: '' }
