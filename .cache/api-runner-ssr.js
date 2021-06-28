@@ -7,6 +7,14 @@ var plugins = [{
       plugin: require('C:/Users/Eddy/Documents/headlesWall/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"topLevelImportPaths":[],"pure":false},
     },{
+      name: 'gatsby-plugin-feed-mdx',
+      plugin: require('C:/Users/Eddy/Documents/headlesWall/node_modules/gatsby-plugin-feed-mdx/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      name: 'gatsby-plugin-mdx',
+      plugin: require('C:/Users/Eddy/Documents/headlesWall/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
+      options: {"plugins":[],"extensions":[".mdx"],"defaultLayouts":{},"gatsbyRemarkPlugins":[],"lessBabel":false,"remarkPlugins":[],"rehypePlugins":[],"mediaTypes":["text/markdown","text/x-markdown"],"root":"C:\\Users\\Eddy\\Documents\\headlesWall"},
+    },{
       name: 'gatsby-plugin-manifest',
       plugin: require('C:/Users/Eddy/Documents/headlesWall/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"WriteWall","short_name":"WriteWall","start_url":"/","background_color":"#ffffff","theme_color":"#663399","display":"minimal-ui","icon":"content/assets/gatsby-icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"4a9773549091c227cd2eb82ccd9c5e3a"},

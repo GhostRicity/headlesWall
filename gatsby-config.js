@@ -73,6 +73,8 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-background-image`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-feed-mdx`,
+    `gatsby-plugin-mdx`,
 
           {
             resolve: `gatsby-remark-images`,

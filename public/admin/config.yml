@@ -13,13 +13,21 @@ public_folder: "/assets"
 
 
 collections:
-  - label: Horo
+  - label: Hero
     name: hero
-    folder: content/hero
+    folder: scr/content/hero/hero.md
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
       - { name: title, label: Title, widget: 'string' }
       - { name: description, label: Description, widget: string }
       - { name: 'featuredImage', label: 'Featured Image', widget: 'image', required: true,  tagname: '' }
+       - label: "CTA"
+          name: "cta"
+          widget: "object"
+          fields:
+            - name: "ctaText"
+              label: "CTA text"
+              widget: "string"
+            - name: "ctaLink"
+              label: "CTA Link"
+              widget: "string"
