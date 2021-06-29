@@ -15,7 +15,6 @@
     "gatsby": "^3.3.0",
     "gatsby-background-image": "^1.5.3",
     "gatsby-image": "^3.3.0",
-    "gatsby-plugin-feed-mdx": "^1.1.0",
     "gatsby-plugin-image": "^1.8.0",
     "gatsby-plugin-manifest": "^3.3.0",
     "gatsby-plugin-mdx": "^2.8.0",

@@ -7,10 +7,6 @@ var plugins = [{
       plugin: require('C:/Users/Eddy/Documents/headlesWall/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"topLevelImportPaths":[],"pure":false},
     },{
-      name: 'gatsby-plugin-feed-mdx',
-      plugin: require('C:/Users/Eddy/Documents/headlesWall/node_modules/gatsby-plugin-feed-mdx/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
       name: 'gatsby-plugin-mdx',
       plugin: require('C:/Users/Eddy/Documents/headlesWall/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
       options: {"plugins":[],"extensions":[".mdx"],"defaultLayouts":{},"gatsbyRemarkPlugins":[],"lessBabel":false,"remarkPlugins":[],"rehypePlugins":[],"mediaTypes":["text/markdown","text/x-markdown"],"root":"C:\\Users\\Eddy\\Documents\\headlesWall"},
