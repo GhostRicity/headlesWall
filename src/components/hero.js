@@ -52,9 +52,4 @@ const Hero = ({ className }) => (
 )
 
 
-const StyledBackgroundSection = styled(Hero)`
-  width: 100%;
-
-`
-
 export default Hero

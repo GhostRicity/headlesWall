@@ -10,7 +10,7 @@ const BlogIndex = ({
   data,
   pageContext: { nextPagePath, previousPagePath },
 }) => {
-  const posts = data.allWpPost.nodes
+  const posts = data.allWPost.nodes
 
   if (!posts.length) {
     return (

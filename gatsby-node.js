@@ -138,11 +138,12 @@ async function getPosts({ graphql, reporter }) {
           previous {
             id
           }
+          # note: this is a GraphQL alias. It renames "node" to "post" for this query
+          # We're doing this because this "node" is a post! It makes our code more readable further down the line.
           post: node {
             id
             uri
           }
-
           next {
             id
           }
