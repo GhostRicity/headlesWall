@@ -17,6 +17,9 @@ module.exports = [{
       plugin: require('../node_modules/gatsby-plugin-mdx/gatsby-browser.js'),
       options: {"plugins":[],"extensions":[".mdx"],"defaultLayouts":{},"gatsbyRemarkPlugins":[],"lessBabel":false,"remarkPlugins":[],"rehypePlugins":[],"mediaTypes":["text/markdown","text/x-markdown"],"root":"C:\\Users\\Eddy\\Documents\\headlesWall"},
     },{
+      plugin: require('../node_modules/gatsby-plugin-web-font-loader/gatsby-browser.js'),
+      options: {"plugins":[],"google":{"families":["Sue Ellen Francisco","Raleway"]}},
+    },{
       plugin: require('../node_modules/gatsby-remark-images/gatsby-browser.js'),
       options: {"plugins":[],"maxWidth":1024,"showCaptions":true,"linkImagesToOriginal":false,"tracedSVG":true,"loading":"lazy","markdownCaptions":false,"sizeByPixelDensity":false,"backgroundColor":"white","quality":50,"withWebp":false,"decoding":"async","disableBgImageOnAlpha":false,"disableBgImage":false},
     },{

@@ -1,6 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 
-$font: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helverica Neue", sans-serif; //color
+$font: "Raleway";
+$headingFont: "Sue Ellen Francisco";
 $white: #FFFFFF;
 $lightGray: #00000029;
 $gray: #707070;
@@ -13,11 +14,26 @@ html {
 
 }
 
+.Container{
+  opacity: 1;
+}
+
+.container1{
+  //padding-left: 7%;
+  margin-left: 15%;
+  height: 100%;
+}
+
+.backgroundImage{
+  opacity: 1 !important;
+}
+
 //bootstrap nav
 .navbar{
   color: $black;
   padding-right: 15%;
   padding-left: 15%;
+  background-color: $white
 }
 
 .navbar.brand {
@@ -25,37 +41,35 @@ html {
   height: 32px;
 }
 
-
 //hero element
 .jumbotron{
   border-radius: 0px !important;
   background-color: #0057ff00 !important;
-  align-items: left;
-  text-align: left;
   //min-height: 500px;
   height: 95vh;
   font-family: $font;
-  //margin-bottom: 0px;
   margin-top: 3rem;
  -webkit-background-size: 100% 100%;
  -moz-background-size: 100% 100%;
  -o-background-size: 100% 100%;
  background-size: 100% 100%;
- z-index: 200;
+ z-index: 20;
  padding: 0px;
+ width: 100%;
 
   h1 {
     font-size:  2.5rem;
     align-items: left;
     text-align: left;
-    padding: 2.5rem;
-    font-weight: 700;
+    //padding: 2.5rem;
+    font-weight: 400;
     width: 100%;
     left: 0;
     transform: translate(0%, 50%);
     letter-spacing: 0px;
     color: $orange;
     opacity: 1;
+    padding-bottom: 4rem;
 
     //mix-blend-mode: difference;
     z-index: 9;
@@ -76,8 +90,168 @@ html {
   }
   p{
     margin-top: 1rem;
-    padding-bottom: 1.75rem;
+    //padding-bottom: 1.75rem;
     color: $black;
   }
 
+}
+
+//straing test proboly wont work and is ugly
+.jumboHight{
+  padding-top: 28%;
+}
+
+
+//get in touch section
+.vertCenter{
+  padding-left: 15%;
+  padding-right: 15%;
+  align-items: center;
+
+  h1{
+    color: $orange;
+  }
+}
+
+.button{
+
+}
+
+a {
+  color: $orange;
+  text-decoration: none;
+  letter-spacing: 0px;
+  background-color: transperant;
+  //background-color: $white;
+}
+a:hover {
+  color: $white;
+  text-decoration: none;
+  //background-color: $orange;
+}
+
+
+//galery section with felxbox
+
+
+//Carousel
+.ideaBox{
+  margin-left: 21%;
+  //background: transparent url('images/Path 9.png') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 17px 50px #00000029;
+  opacity: 1;
+  margin-bottom: 12%;
+  margin-top: -7%;
+  z-index: 300;
+  background-color: $white;
+  max-width: 1504px;
+  max-height: 845px;
+  flex-grow: 1;
+}
+
+.tabAlingment{
+  padding: auto;
+  display: flex;
+  flex-wrap: nowrap !important;
+}
+
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  word-break: normal;
+  color: $black;
+  a{
+    color: $black;
+
+  }
+  a:hover {
+    color: $black;
+    text-decoration: underline;
+    text-decoration-color: $orange;
+    font-weight: bold;
+    //background-color: $orange;
+  }
+
+  a:active {
+    color: $black;
+    text-decoration: underline;
+    text-decoration-color: $orange;
+    font-weight: bold;
+    //background-color: $orange;
+  }
+   a:active{
+    color: $black;
+    text-decoration: underline;
+    text-decoration-color: $orange;
+    font-weight: bold;
+  }
+
+}
+
+nav-link:active{
+  color: $black;
+  text-decoration: underline;
+  -webkit-text-decoration-color: $orange;
+  text-decoration-color: $orange;
+  font-weight: bold;
+}
+
+
+
+.tab-content{
+  max-height: 845px;
+  //height: 845px;
+  width: 100%;
+  h1{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+  }
+  p{
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+    font: normal normal normal 17px/27px Raleway;
+
+    a{
+      color: $orange !important;
+      padding-top: -3%;
+    }
+  }
+}
+  //this is need for the carusel, to fit nicley, if it breaks somthing... to bad
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  //margin-right: -15px;
+  //margin-left: -15px;
+  flex-grow: 1;
+  align-items: center;
+}
+
+//link cir acrusel links
+.btn--read_more, .btn--read_more:hover {
+  background-color: transparent!important;
+  padding: 0;
+ }
+
+.btn--read_more:after {
+  display:block;
+  content: '';
+  margin-top:2px;
+  border-bottom: solid 3px var(--color-btn-primary-text);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.btn--read_more:hover:after { transform: scaleX(1); }
+
+.btn--read_more:after, .btn--read_more:focus{
+  transform-origin:  0% 50%;
+  background-color: transparent;
+ }
+.span--read_more:before {
+  content: "→";
 }

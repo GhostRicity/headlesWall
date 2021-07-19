@@ -74,17 +74,24 @@ module.exports = {
     `gatsby-background-image`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-mdx`,
-
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 1024,
-              showCaptions: true,
-              linkImagesToOriginal: false,
-              tracedSVG: true,
-              loading: "lazy",
-            },
-          },
+    {
+    resolve: 'gatsby-plugin-web-font-loader',
+    options: {
+      google: {
+        families: ['Sue Ellen Francisco', 'Raleway']
+      },
+    },
+  },
+    {
+      resolve: `gatsby-remark-images`,
+        options: {
+        maxWidth: 1024,
+        showCaptions: true,
+        linkImagesToOriginal: false,
+        tracedSVG: true,
+        loading: "lazy",
+      },
+    },
     {
       // See https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest/?=gatsby-plugin-manifest
       resolve: `gatsby-plugin-manifest`,

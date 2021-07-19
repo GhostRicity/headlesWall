@@ -4,7 +4,12 @@ import { graphql, link } from "gatsby"
 //import componets
 import Header from "../components/header"
 import Footer from "../components/footer"
-import Hero2 from "../components/hero2"
+import Hero from "../components/hero"
+import GetIn from "../components/getInTouch"
+import Gallery from "../components/indexGallery"
+import Carousel from "../components/carusel"
+import Fake from "../components/fakeGallery"
+
 
 //import styles
 import '../styles/styles.scss'
@@ -14,13 +19,11 @@ import '../styles/styles.scss'
 const IndexPage = ({ data }) => (
 
     <div>
-    {console.log("YO YO")}
-    {console.log(data.allWpPost.nodes[0].title)}
-    {console.log(Object.keys(data))}
       <Header/>
-      <h1>{data.allWpPost.nodes[0].title}</h1>
-      <h1>Kill me</h1>
-      <Hero2/>
+      <Hero/>
+      <Carousel/>
+      <Fake/>
+      <GetIn/>
       <Footer/>
     </div>
   )
