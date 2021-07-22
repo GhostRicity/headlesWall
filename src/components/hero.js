@@ -58,7 +58,7 @@ export default function Hero(data){
                     <h1>{data.wpPost.title}</h1>
                     <p>{parse(data.wpPost.excerpt)}</p>
                     <Button >
-                      <Link to="/404">Get in touch</Link>
+                      <Link to="/form">Get in touch</Link>
                     </Button>
                   </div>
                 </Col>

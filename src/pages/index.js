@@ -10,7 +10,6 @@ import Gallery from "../components/indexGallery"
 import Carousel from "../components/carusel"
 import Fake from "../components/fakeGallery"
 
-
 //import styles
 import '../styles/styles.scss'
 

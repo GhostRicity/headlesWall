@@ -40,7 +40,7 @@ export default function GetIn(data){
           <div>
               <Container fluid>
                 <Row>
-                  <Col>
+                  <Col md={6}>
                     <Image
                       fluid = {data.wpPost.featuredImage.node.localFile.childImageSharp.fluid}
                       alt = {data.wpPost.featuredImage.node.alt}
@@ -48,12 +48,12 @@ export default function GetIn(data){
                       objectPosition="50% 50%"
                       />
                   </Col>
-                  <Col>
+                  <Col md={6}>
                     <div className="vertCenter">
                       <h1>{data.wpPost.title}</h1>
                       <p>{parse(data.wpPost.excerpt)}</p>
                       <Button >
-                        <Link to="/404">Get in touch</Link>
+                        <Link to="/form">Get in touch</Link>
                       </Button>
                     </div>
                   </Col>

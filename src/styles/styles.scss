@@ -141,7 +141,7 @@ a:hover {
   box-shadow: 0px 17px 50px #00000029;
   opacity: 1;
   margin-bottom: 12%;
-  margin-top: -7%;
+  //margin-top: -7%;
   z-index: 300;
   background-color: $white;
   max-width: 1504px;
@@ -254,4 +254,28 @@ nav-link:active{
  }
 .span--read_more:before {
   content: "→";
+}
+
+//form section for MailChimp
+.mailForm{
+  padding: 10%;
+}
+
+.mailRow{
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 17px 50px #00000029;
+  opacity: 1;
+}
+
+.form-control{
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 17px 50px #00000029;
+  opacity: 1;
+  padding: 3%;
+  height: 71px;
+  width: 642px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
