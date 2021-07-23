@@ -14,7 +14,7 @@ const ButtonWrapper = styled.button`
   text-align: center;
   box-sizing: border-box;
   text-decoration: none !important;
-  font: normal normal medium 20px/24px Raleway;
+  font: 20px/24px Raleway;
   color: #F8A31B;
   padding: 10px 25px;
   cursor: pointer;
@@ -23,6 +23,8 @@ const ButtonWrapper = styled.button`
   background: #FFFFFF 0% 0% no-repeat padding-box;
   letter-spacing: 2px;
   box-shadow: 0px 17px 50px #00000029;
+  height: 65px;
+  width: 180px;
   &:hover {
     box-shadow: 0px 17px 50px #00000029;
     background-color: #F8A31B;

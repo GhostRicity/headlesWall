@@ -38,7 +38,7 @@ export default function Fake(data){
         `}
         render={ data => (
           <div>
-              <Container fluid>
+              <Container fluid className="alingedContainer">
                 <Row>
                   <Col md={6}>
                     <div className="vertCenter">
@@ -50,12 +50,14 @@ export default function Fake(data){
                     </div>
                   </Col>
                   <Col md={6}>
+                    <div className="galleryPadding">
                       <Image
                         fluid = {data.wpPost.featuredImage.node.localFile.childImageSharp.fluid}
                         alt = {data.wpPost.featuredImage.node.alt}
                         objectFit="none"
                         objectPosition="50% 50%"
                         />
+                    </div>
                   </Col>
                 </Row>
               </Container>

@@ -9,18 +9,33 @@ $black: #000000;
 $orange: #F8A31B;
 
 
-body,
+body{
+  font-family: 'Raleway', sans-serif;
+}
 html {
 
+}
+
+h1{
+  padding-bottom: 1.2rem;
+}
+
+.jumbotron{
+  margin-bottom: 0rem;
 }
 
 .Container{
   opacity: 1;
 }
 
+.alingedContainer{
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
 .container1{
   //padding-left: 7%;
-  margin-left: 15%;
+  margin-left: 14.3%;
   height: 100%;
 }
 
@@ -49,9 +64,9 @@ html {
   height: 95vh;
   font-family: $font;
   margin-top: 3rem;
- -webkit-background-size: 100% 100%;
- -moz-background-size: 100% 100%;
- -o-background-size: 100% 100%;
+ //-webkit-background-size: 100% 100%;
+ //-moz-background-size: 100% 100%;
+ //-o-background-size: 100% 100%;
  background-size: 100% 100%;
  z-index: 20;
  padding: 0px;
@@ -69,7 +84,6 @@ html {
     letter-spacing: 0px;
     color: $orange;
     opacity: 1;
-    padding-bottom: 4rem;
 
     //mix-blend-mode: difference;
     z-index: 9;
@@ -98,7 +112,12 @@ html {
 
 //straing test proboly wont work and is ugly
 .jumboHight{
-  padding-top: 28%;
+  height: 95vh;
+  display: flex;
+  //align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -3rem;
 }
 
 
@@ -135,6 +154,10 @@ a:hover {
 
 
 //Carousel
+.caruselContainer{
+  //overflow: hidden;
+}
+
 .ideaBox{
   margin-left: 21%;
   //background: transparent url('images/Path 9.png') 0% 0% no-repeat padding-box;
@@ -147,18 +170,35 @@ a:hover {
   max-width: 1504px;
   max-height: 845px;
   flex-grow: 1;
+  overflow: hidden;
+  display: flex;
+  align-self: flex-start;
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start !important;
+  }
+}
+
+.pleaseStop{
+  display: flex;
+  align-self: flex-start !important;
 }
 
 .tabAlingment{
-  padding: auto;
+  //padding: auto;
   display: flex;
   flex-wrap: nowrap !important;
+  font: normal normal normal 17px/20px Raleway;
+  text-align: left;
 }
 
 .nav{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  padding-left: 7.61%;
+  //justify-content: center;
   word-break: normal;
   color: $black;
   a{
@@ -222,12 +262,15 @@ nav-link:active{
     }
   }
 }
+
+.staticTabs{
+
+}
+
   //this is need for the carusel, to fit nicley, if it breaks somthing... to bad
 .row{
   display: flex;
   flex-wrap: wrap;
-  //margin-right: -15px;
-  //margin-left: -15px;
   flex-grow: 1;
   align-items: center;
 }
@@ -278,4 +321,9 @@ nav-link:active{
   width: 642px;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+//fakeGallery
+.galleryPadding{
+  padding: 7%;
 }

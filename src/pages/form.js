@@ -36,7 +36,7 @@ const FormPage = (data) => (
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Control type="email" placeholder="Cuntry" />
+            <Form.Control type="email" placeholder="Contry" />
             <Form.Text className="text-muted">
             </Form.Text>
           </Form.Group>

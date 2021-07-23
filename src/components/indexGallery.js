@@ -42,7 +42,7 @@ export default function Gallery(data){
         `}
         render={ data => (
           <div>
-              <Container fluid>
+              <Container fluid className="alingedContainer">
               {console.log(data.allWpMediaItem.edges)}
                 <Row>
                   <Col>

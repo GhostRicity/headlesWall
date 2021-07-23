@@ -29,8 +29,8 @@
   --spacing-32: 8rem;
   --fontFamily-heading: Sue Ellen Francisco;
   --fontFamily-sans: Raleway;
-  --font-body: var(--fontFamily-serif);
-  --font-heading: var(--fontFamily-heading);
+  --font-body: 'Raleway', sans-serif;;
+  --font-heading: Sue Ellen Francisco;
   --fontWeight-normal: 400;
   --fontWeight-medium: 500;
   --fontWeight-semibold: 600;

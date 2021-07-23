@@ -41,25 +41,27 @@ export default function Caro(data){
 
         render={ data => (
           <div>
-              <Container fluid>
-                <Row className="ideaBox" fluid>
+              <Container fluid className="caruselContainer">
+                <Row className="ideaBox">
                   <Tab.Container defaultActiveKey="WeProduce">
                     <Row>
                       <Col>
-                        <Nav className="tabAlingment">
-                          <Nav.Item>
-                            <Nav.Link eventKey="WeProduce">We Produce</Nav.Link>
-                          </Nav.Item>
-                          <Nav.Item>
-                            <Nav.Link eventKey="WeInstall">We Install</Nav.Link>
-                          </Nav.Item>
-                          <Nav.Item>
-                            <Nav.Link eventKey="WeService">We Service</Nav.Link>
-                          </Nav.Item>
-                          <Nav.Item>
-                            <Nav.Link eventKey="WeDeliver">We Deliver</Nav.Link>
-                          </Nav.Item>
-                        </Nav>
+                        <div className="staticTabs">
+                          <Nav className="tabAlingment">
+                            <Nav.Item>
+                              <Nav.Link eventKey="WeProduce">We Produce</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                              <Nav.Link eventKey="WeInstall">We Install</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                              <Nav.Link eventKey="WeService">We Service</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                              <Nav.Link eventKey="WeDeliver">We Deliver</Nav.Link>
+                            </Nav.Item>
+                          </Nav>
+                        </div>
                         <Tab.Content>
                           <Tab.Pane eventKey="WeProduce">
                           <div>

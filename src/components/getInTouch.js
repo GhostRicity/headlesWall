@@ -38,7 +38,7 @@ export default function GetIn(data){
         `}
         render={ data => (
           <div>
-              <Container fluid>
+              <Container fluid className="alingedContainer">
                 <Row>
                   <Col md={6}>
                     <Image

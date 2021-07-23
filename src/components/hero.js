@@ -51,7 +51,7 @@ export default function Hero(data){
             }}
           >
           <Jumbotron fluid id="home" className="jumbotron">
-            <Container className="container1">
+            <Container fludi className="container1">
               <Row>
                 <Col>
                   <div className="jumboHight">
