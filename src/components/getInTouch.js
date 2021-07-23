@@ -39,7 +39,7 @@ export default function GetIn(data){
         render={ data => (
           <div>
               <Container fluid className="alingedContainer">
-                <Row>
+                <Row className="verticalCenter">
                   <Col md={6}>
                     <Image
                       fluid = {data.wpPost.featuredImage.node.localFile.childImageSharp.fluid}

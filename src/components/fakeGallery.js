@@ -39,7 +39,7 @@ export default function Fake(data){
         render={ data => (
           <div>
               <Container fluid className="alingedContainer">
-                <Row>
+                <Row className="verticalCenter">
                   <Col md={6}>
                     <div className="vertCenter">
                       <h1>{data.wpPost.title}</h1>

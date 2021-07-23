@@ -42,9 +42,8 @@ export default function Caro(data){
         render={ data => (
           <div>
               <Container fluid className="caruselContainer">
-                <Row className="ideaBox">
+                <Row flex className="ideaBox">
                   <Tab.Container defaultActiveKey="WeProduce">
-                    <Row>
                       <Col>
                         <div className="staticTabs">
                           <Nav className="tabAlingment">
@@ -121,7 +120,7 @@ export default function Caro(data){
                           </Tab.Pane>
                         </Tab.Content>
                       </Col>
-                    </Row>
+
                   </Tab.Container>
                 </Row>
               </Container>
