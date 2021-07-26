@@ -56,7 +56,15 @@ h1{
   color: $black;
   padding-right: 15%;
   padding-left: 15%;
-  background-color: $white
+  background-color: $white;
+  @media only screen
+  and (max-width : 720px) {
+  padding-left: 3%;
+}
+@media only screen
+  and (max-width : 500px){
+  padding-left: 0%;
+}
 }
 
 .navbar.brand {
@@ -92,23 +100,8 @@ h1{
     letter-spacing: 0px;
     color: $orange;
     opacity: 1;
-
-    //mix-blend-mode: difference;
     z-index: 9;
-    @media only screen
-      and (max-width : 720px) {
-        font-size:  2rem;
-        align-items: center;
-        padding: 2rem;
-        letter-spacing: 10px;
-   }
-    @media only screen
-      and (max-width : 500px){
-      font-size:  1.5rem;
-      align-items: center;
-      padding: 1rem;
-      letter-spacing: 3px;
-   }
+
   }
   p{
     margin-top: 1rem;
@@ -168,7 +161,7 @@ a:hover {
 
 .ideaBox{
   margin-left: 21%;
-  //background: transparent url('images/Path 9.png') 0% 0% no-repeat padding-box;
+  //background: transparent url('src/images/Path 9.png') 0% 0% no-repeat padding-box;
   box-shadow: 0px 17px 50px #00000029;
   opacity: 1;
   margin-bottom: 12%;
@@ -189,8 +182,6 @@ a:hover {
   }
 }
 
-
-
 .pleaseStop{
   display: flex;
   align-self: flex-start !important;
@@ -200,7 +191,6 @@ a:hover {
   //padding: auto;
   display: flex;
   flex-wrap: nowrap !important;
-  font: normal normal normal 17px/20px Raleway;
   text-align: left;
 }
 
@@ -213,6 +203,7 @@ a:hover {
   color: $black;
   a{
     color: $black;
+
 
   }
   a:hover {
@@ -251,7 +242,6 @@ nav-link:active{
 
 .tab-content{
   max-height: 845px;
-  //height: 845px;
   width: 100%;
   h1{
     padding-top: 10%;
@@ -260,11 +250,18 @@ nav-link:active{
     justify-content: center;
   }
   p{
-    padding-top: 4%;
+    padding-top: 3%;
     padding-left: 10%;
     padding-right: 10%;
     justify-content: center;
-    font: normal normal normal 17px/27px Raleway;
+    @media only screen
+    and (max-width : 720px) {
+    padding-top: 1%;
+  }
+  @media only screen
+    and (max-width : 500px){
+    padding-top: 0%;
+  }
 
     a{
       color: $orange !important;
@@ -278,35 +275,30 @@ nav-link:active{
 }
 
   //this is need for the carusel, to fit nicley, if it breaks somthing... to bad
-.row{
-  //display: flex;
-  //flex-wrap: wrap;
-  //flex-grow: 1;
-  //align-items: center;
+
+.colImagePadding{
+  padding-left: 0px;
+  padding-right: 0px;
+  @media only screen
+  and (max-width : 720px) {
+  display: none;
+}
+@media only screen
+  and (max-width : 500px){
+  display: none;
+}
 }
 
-//link cir acrusel links
-.btn--read_more, .btn--read_more:hover {
-  background-color: transparent!important;
-  padding: 0;
- }
-
-.btn--read_more:after {
-  display:block;
-  content: '';
-  margin-top:2px;
-  border-bottom: solid 3px var(--color-btn-primary-text);
-  transform: scaleX(0);
-  transition: transform 250ms ease-in-out;
-}
-.btn--read_more:hover:after { transform: scaleX(1); }
-
-.btn--read_more:after, .btn--read_more:focus{
-  transform-origin:  0% 50%;
-  background-color: transparent;
- }
-.span--read_more:before {
-  content: "→";
+//arrow
+.triangle-down {
+	width: 0;
+	height: 0;
+  box-shadow: 0px 17px 50px #00000029;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 200px solid $white;
+  margin-bottom: 12%;
+  margin-left: 33%;
 }
 
 //form section for MailChimp

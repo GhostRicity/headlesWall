@@ -64,6 +64,8 @@ export default function Hero(data){
                 </Col>
                 <Col>
                 </Col>
+                <Col>
+                </Col>
               </Row>
             </Container>
            </Jumbotron>

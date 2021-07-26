@@ -23,8 +23,8 @@ const ButtonWrapper = styled.button`
   background: #FFFFFF 0% 0% no-repeat padding-box;
   letter-spacing: 2px;
   box-shadow: 0px 17px 50px #00000029;
-  height: 65px;
-  width: 180px;
+  height: 4rem;
+  width: 11.25rem;
   &:hover {
     box-shadow: 0px 17px 50px #00000029;
     background-color: #F8A31B;

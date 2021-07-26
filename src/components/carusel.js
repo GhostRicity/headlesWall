@@ -71,7 +71,7 @@ export default function Caro(data){
                             <p> AquaWrite spend years in the making with thousands
                             of hours in research and development,
                             and started proving itself since 2015.</p>
-                              <p><Link className="btn--read_more" to="#">Lern more about us -><span class="span--read_more"></span></Link></p>
+                              <p><Link className="btn--read_more" to="#">Lern more about us -></Link></p>
                               <p><Link to="#">Lern more about products -></Link></p>
                             </div>
                           </Tab.Pane>
@@ -104,7 +104,7 @@ export default function Caro(data){
                           </Tab.Pane>
                         </Tab.Content>
                       </Col>
-                      <Col>
+                      <Col className="colImagePadding">
                         <Tab.Content>
                           <Tab.Pane eventKey="WeProduce">
                             {<WeProd/>}
@@ -120,7 +120,6 @@ export default function Caro(data){
                           </Tab.Pane>
                         </Tab.Content>
                       </Col>
-
                   </Tab.Container>
                 </Row>
               </Container>
