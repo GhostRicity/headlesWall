@@ -19,11 +19,11 @@ const Header = () => (
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
       <Nav className="justify-content-end">
-        <Nav.Link href="/blog">Solutions</Nav.Link>
-        <Nav.Link href="/about">Services</Nav.Link>
-        <Nav.Link href="/research">Product Sales</Nav.Link>
-        <Nav.Link href="/tournaments">About</Nav.Link>
-        <Nav.Link href="/tournaments">Contact</Nav.Link>
+        <Nav.Link href="/solutions">Solutions</Nav.Link>
+        <Nav.Link href="/#">Services</Nav.Link>
+        <Nav.Link href="/#">Product Sales</Nav.Link>
+        <Nav.Link href="/#">About</Nav.Link>
+        <Nav.Link href="/#">Contact</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

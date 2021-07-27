@@ -6,7 +6,7 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import Hero from "../components/hero"
 import GetIn from "../components/getInTouch"
-import Gallery from "../components/indexGallery"
+//import Gallery from "../components/indexGallery"
 import Carousel from "../components/carusel"
 import Fake from "../components/fakeGallery"
 

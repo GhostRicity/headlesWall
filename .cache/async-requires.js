@@ -6,6 +6,7 @@ exports.components = {
   "component---src-pages-404-js": () => import("./../../../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-form-js": () => import("./../../../src/pages/form.js" /* webpackChunkName: "component---src-pages-form-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
+  "component---src-pages-solutions-js": () => import("./../../../src/pages/solutions.js" /* webpackChunkName: "component---src-pages-solutions-js" */),
   "component---src-templates-blog-post-js": () => import("./../../../src/templates/blog-post.js" /* webpackChunkName: "component---src-templates-blog-post-js" */)
 }
 

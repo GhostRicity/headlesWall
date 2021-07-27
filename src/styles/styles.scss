@@ -77,7 +77,7 @@ h1{
   border-radius: 0px !important;
   background-color: #0057ff00 !important;
   //min-height: 500px;
-  height: 95vh;
+  height: 90vh;
   font-family: $font;
   margin-top: 3rem;
  //-webkit-background-size: 100% 100%;
@@ -149,16 +149,10 @@ a:hover {
   text-decoration: none;
   //background-color: $orange;
 }
-
-
 //galery section with felxbox
 
 
 //Carousel
-.caruselContainer{
-  //overflow: hidden;
-}
-
 .ideaBox{
   margin-left: 21%;
   //background: transparent url('src/images/Path 9.png') 0% 0% no-repeat padding-box;
@@ -274,6 +268,30 @@ nav-link:active{
   padding-top: 19%;
 }
 
+//static Carusel with one content so just the layout. I cold have rewrote this. To bad
+.ideaBoxStat{
+  margin-left: 21%;
+  //background: transparent url('src/images/Path 9.png') 0% 0% no-repeat padding-box;
+  box-shadow: 0px 17px 50px #00000029;
+  opacity: 1;
+  margin-bottom: 12%;
+  //margin-top: -7%;
+  z-index: 300;
+  background-color: $white;
+  max-width: 1504px;
+  max-height: 845px;
+  flex-grow: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start !important;
+  }
+}
+
   //this is need for the carusel, to fit nicley, if it breaks somthing... to bad
 
 .colImagePadding{
@@ -289,17 +307,6 @@ nav-link:active{
 }
 }
 
-//arrow
-.triangle-down {
-	width: 0;
-	height: 0;
-  box-shadow: 0px 17px 50px #00000029;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-top: 200px solid $white;
-  margin-bottom: 12%;
-  margin-left: 33%;
-}
 
 //form section for MailChimp
 .mailForm{
@@ -328,4 +335,23 @@ nav-link:active{
 //fakeGallery
 .galleryPadding{
   padding: 7%;
+}
+
+//half images
+.halfText{
+  padding-left: 15%;
+  padding-right: 15%;
+  align-items: center;
+  h1{
+    color: $black;
+  }
+  p{
+
+  }
+}
+
+.halfBg{
+  background-color: $orange;
+  padding-right: 0px;
+  padding-left: 0px;
 }
