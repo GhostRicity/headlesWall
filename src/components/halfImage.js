@@ -16,7 +16,7 @@ export default function Half(data){
     <StaticQuery
       query={graphql`
         query contacts6 {
-          wpPost(slug: {eq: "second-post"}) {
+          wpPost(slug: {eq: "out-of-your-mind-and-on-to-the-wall"}) {
             id
             title
             excerpt

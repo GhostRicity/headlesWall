@@ -38,7 +38,7 @@ export default function Fake(data){
         `}
         render={ data => (
           <div>
-              <Container fluid className="alingedContainer">
+              <Container fluid className="alingedContainer" style={{paddingBototm:"12%"}}>
                 <Row className="verticalCenter">
                   <Col md={6}>
                     <div className="vertCenter">

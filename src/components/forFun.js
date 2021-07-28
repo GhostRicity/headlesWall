@@ -16,7 +16,7 @@ export default function ForFun(data){
     <StaticQuery
       query={graphql`
         query contacts3 {
-          wpPost(slug: {eq: "second-post"}) {
+          wpPost(slug: {eq: "for-fun"}) {
             id
             title
             excerpt
@@ -38,7 +38,7 @@ export default function ForFun(data){
         `}
         render={ data => (
           <div>
-              <Container fluid className="alingedContainer">
+              <Container fluid className="alingedContainer" style={{paddingTop:"2%", paddingBottom:"8%"}}>
                 <Row className="verticalCenter">
                   <Col md={6}>
                     <div className="vertCenter">

@@ -16,7 +16,7 @@ export default function ForWork(data){
     <StaticQuery
       query={graphql`
         query contacts2 {
-          wpPost(slug: {eq: "second-post"}) {
+          wpPost(slug: {eq: "for-work"}) {
             id
             title
             excerpt
@@ -38,7 +38,7 @@ export default function ForWork(data){
         `}
         render={ data => (
           <div>
-              <Container fluid className="alingedContainer">
+              <Container fluid className="alingedContainer" style={{paddingTop:"8%", paddingBottom:"8%"}}>
                 <Row className="verticalCenter">
                   <Col md={6}>
                     <Image

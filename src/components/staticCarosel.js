@@ -17,7 +17,7 @@ export default function StatCaro(data){
     <StaticQuery
     query={graphql`
       query staticCaru {
-        wpPost(slug: {eq: "second-post"}) {
+        wpPost(slug: {eq: "for-education"}) {
           id
           title
           excerpt
