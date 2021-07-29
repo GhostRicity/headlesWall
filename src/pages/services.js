@@ -10,7 +10,6 @@ import HalfServ from "../components/halfImageServices"
 import Years from "../components/servicesEx"
 import Delete from "../components/servicesDelete"
 import Text from "../components/servicesText"
-import SixCards from "../components/SixCards"
 //import styles
 import '../styles/styles.scss'
 
