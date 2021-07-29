@@ -20,8 +20,8 @@ const Header = () => (
     <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
       <Nav className="justify-content-end">
         <Nav.Link href="/solutions">Solutions</Nav.Link>
-        <Nav.Link href="/#">Services</Nav.Link>
-        <Nav.Link href="/#">Product Sales</Nav.Link>
+        <Nav.Link href="/services">Services</Nav.Link>
+        <Nav.Link href="/productSales">Product Sales</Nav.Link>
         <Nav.Link href="/#">About</Nav.Link>
         <Nav.Link href="/#">Contact</Nav.Link>
       </Nav>

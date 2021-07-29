@@ -76,13 +76,9 @@ h1{
 .jumbotron{
   border-radius: 0px !important;
   background-color: #0057ff00 !important;
-  //min-height: 500px;
   height: 90vh;
   font-family: $font;
   margin-top: 3rem;
- //-webkit-background-size: 100% 100%;
- //-moz-background-size: 100% 100%;
- //-o-background-size: 100% 100%;
  background-size: 100% 100%;
  z-index: 20;
  padding: 0px;
@@ -92,6 +88,7 @@ h1{
     font-size:  2.5rem;
     align-items: left;
     text-align: left;
+    line-height: 150%;
     //padding: 2.5rem;
     font-weight: 400;
     width: 100%;
@@ -104,7 +101,7 @@ h1{
 
   }
   p{
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     //padding-bottom: 1.75rem;
     color: $black;
   }
@@ -354,4 +351,19 @@ nav-link:active{
   background-color: $orange;
   padding-right: 0px;
   padding-left: 0px;
+}
+
+//centerd text modual in services Services page
+.centerTextCenter{
+  padding-left: 15%;
+  padding-right: 15%;
+  align-items: center;
+  text-align: center;
+
+  h1{
+    color: $orange;
+  }
+  button{
+    display: inline;
+  }
 }
