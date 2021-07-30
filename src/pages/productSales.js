@@ -8,6 +8,9 @@ import ProductHero from "../components/productHero"
 import HalfServ from "../components/halfImageServices"
 import Aqua from "../components/productAqua"
 import Text from "../components/servicesText"
+import Text4 from "../components/productFourText"
+import Mag from "../components/productsMag"
+
 //import styles
 import '../styles/styles.scss'
 
@@ -19,6 +22,8 @@ const ProductSales = ({ data }) => (
       <Header/>
       <ProductHero/>
       <Aqua/>
+      <Text4/>
+      <Mag/>
       <Text/>
       <HalfServ/>
       <Footer/>

@@ -8,7 +8,9 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-import Button from "../components/button"
+//import Button from "../components/button"
+
+import Button from 'react-bootstrap/Button'
 
 
 export default function Aqua(data){
@@ -52,9 +54,7 @@ export default function Aqua(data){
                     <div className="vertCenter">
                       <h1>{data.wpPost.title}</h1>
                       <p>{parse(data.wpPost.excerpt)}</p>
-                      <Button >
-                        <Link to="/form">Get in touch</Link>
-                      </Button>
+                       <Button href="https://www.writewallpaint.com/">WebShop</Button>
                     </div>
                   </Col>
                 </Row>
